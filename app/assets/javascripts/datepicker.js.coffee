@@ -10,11 +10,13 @@
       showOn: 'focus',
       changeMonth: true,
       dateFormat: 'yy-mm-dd'})
+      .datepicker("show")
 
   $(document).on 'click focus', 'input.datetime', ->
     $(this).datetimepicker({
       showOn: 'focus',
       changeMonth: true,
       dateFormat: 'yy-mm-dd'})
+      .datetimepicker("show")
 
 ) jQuery
